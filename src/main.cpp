@@ -1,5 +1,4 @@
-//Compile with: g++ solution.cpp -o app -std=c++11 -I/usr/include/python2.7 -lpython2.7
-#include "src/matplotlibcpp.h" //Graph Library
+#include "../lib/matplotlibcpp.h" //Graph Library
 #include <iostream>
 #include <string>
 #include <math.h>
@@ -220,7 +219,7 @@ void visualization(int n, Robot robot, int step, Robot p[], Robot pr[])
     plt::plot({ robot.x }, { robot.y }, "bo");
 
     //Save the image and close the plot
-    plt::save("./Images/Step" + to_string(step) + ".png");
+    plt::save("../images/step" + to_string(step) + ".png");
     plt::clf();
 }
 
