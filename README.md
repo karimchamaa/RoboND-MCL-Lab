@@ -6,7 +6,7 @@ You will be able to observe the `MCL` in action through the generated images.
 ### Compiling the Program
 ```sh
 $ cd Desktop/
-$ git clone https://github.com/udacity/RoboND-MCL-Lab
+$ git clone https://github.com/karimchamaa/RoboND-MCL-Lab
 $ cd RoboND-MCL-Lab/
 $ rm -rf images/*
 $ mkdir build/
